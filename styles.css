@@ -1,0 +1,42 @@
+/* Reset some default browser styles */
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+/* Background */
+body {
+    background-color:rgb(245, 220, 220);
+    font-family: Arial, sans-serif;
+  }
+/* Style the header */
+h1, h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Style the Container Section */
+.container {
+    margin: 30px;
+    display: flex;
+    place-content: center;
+    padding: 10px;
+}
+#taskInput {
+    margin: 20px;
+    width: 200px;
+}
+#addTaskButton {
+    background-color: #fea7f2;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+    border-color: #f895ea;
+}
+#addTaskButton:hover{
+    cursor: pointer;
+    background-color: rgb(148, 96, 143);
+}
+#orderedLst {
+    margin: 5px;
+    place-self: center;
+    list-style-position: outside;
+}
